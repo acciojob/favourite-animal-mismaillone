@@ -1,2 +1,40 @@
+.container{
+	width:100%;
+	background:#F5F5F5;
+	display:flex;
+	justify-content:center;
+}
+.animals-you-love{
+	
+	width:90%;
+	height:100%;
+	background:#F8E7F6;
+	text-align:center;
+}
+h1{
+	color:#9ABF80;
+}
 
-/* Your CSS Code here. */
+.other-info{
+	margin-top:50px;
+	display:flex;
+	flex-wrap:wrap;
+	justify-content:space-around;
+	align-items:center;
+	gap:20px;
+	width:100%;
+	
+}
+.img-record{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	background:#79D7BE;
+	width:300px;
+	height:300px;
+}
+.img-record img{
+	width:250px;
+	height:250px;
+	border-radius:20px;
+}
